@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Welcome to Jian's blog!"
-date:   2020-03-07 23:33:31 -0500
-categories: general
----
-Welcome to Jian's blog!
