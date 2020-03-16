@@ -2,7 +2,7 @@
 layout: post
 title:  "Data-driven Newsvendor - Is the Estimate-then-optimize Method Really Bad?"
 date:   2020-03-15 21:24:11 -0500
-categories: SupplyChain 
+categories: SCM 
 comments: true
 
 
