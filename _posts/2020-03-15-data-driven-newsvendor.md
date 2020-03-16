@@ -35,8 +35,8 @@ Plug in $\phi(q,D_\lambda)$,
 [[
 
 \begin{aligned}
-\psi(q)&=\mathbb E(\int_0^qsx dF_D(x;\lambda)+\int_q^\infty sqdF_D(x;\lambda))-cq\\
-&= s[\int_0^\infty \int_0^qx dF_D(x;y)dF_{\lambda}(y)+\int_0^\infty\int_q^\infty qdF_D(x;y)dF_\lambda(y)]-cq\\
+\psi(q)&=\mathbb E(\int_0^qsx dF_D(x;\lambda)+\int_q^\infty sqdF_D(x;\lambda))-cq&bsol;&bsol;
+&= s[\int_0^\infty \int_0^qx dF_D(x;y)dF_{\lambda}(y)+\int_0^\infty\int_q^\infty qdF_D(x;y)dF_\lambda(y)]-cq&bsol;&bsol;
 &= s[\int_0^\infty \int_0^qx dF_D(x;y)dF_{\lambda}(y)+q\int_0^\infty \bar F_D(q;y)dF_\lambda(y)]-cq.
 \end{aligned}
 
