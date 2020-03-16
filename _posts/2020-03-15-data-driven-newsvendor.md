@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data-driven newsvendor - Is the "estimate-then-optimize" method really bad?"
+title:  "Data-driven Newsvendor - Is the Estimate-then-optimize Method Really Bad?"
 date:   2020-03-15 21:24:11 -0500
 categories: supply chain 
 comments: true
@@ -46,9 +46,11 @@ One can verify the above function of q is concave by taking the second derivativ
 \end{align}]]
 
 FOC is $d\psi/dq=0$, 
+
 [[\int_0^\infty \bar F_D(q^*;y)dF_\lambda(y)=c/s.]]
 
 where $dF_\lambda(y)=\frac{(n\bar d)^n}{(n-1)!}y^{n-1}\exp(-n\bar dy)dy$, and $\bar F_D(q;y)=\exp(-qy)$. Then 
+
 [[\begin{align}
 \int_0^\infty \bar F_D(q^*;y)dF_\lambda(y)&=c/s\\
 \frac{(n\bar d)^n}{(n-1)!}\int_0^{\infty}y^{n-1}\exp(-n\bar dy-q^*y)dy&=c/s\\
@@ -56,6 +58,7 @@ where $dF_\lambda(y)=\frac{(n\bar d)^n}{(n-1)!}y^{n-1}\exp(-n\bar dy)dy$, and $\
 \end{align}]]
 
 Finally,
+
 [[q^*=n[(s/c)^{1/n}-1]\bar d.]]
 
 
