@@ -2,7 +2,7 @@
 layout: post
 title:  "Data-driven Newsvendor - Is the Estimate-then-optimize Method Really Bad?"
 date:   2020-03-15 21:24:11 -0500
-categories: supply-chain 
+categories: supply_chain 
 comments: true
 
 
@@ -32,11 +32,15 @@ The objective of the newsvendor is maximize the following expected profit under 
 
 Plug in $\phi(q,D_\lambda)$, 
 
-[[\begin{aligned}
+[[
+
+\begin{aligned}
 \psi(q)&=\mathbb E(\int_0^qsx dF_D(x;\lambda)+\int_q^\infty sqdF_D(x;\lambda))-cq\\
 &= s[\int_0^\infty \int_0^qx dF_D(x;y)dF_{\lambda}(y)+\int_0^\infty\int_q^\infty qdF_D(x;y)dF_\lambda(y)]-cq\\
 &= s[\int_0^\infty \int_0^qx dF_D(x;y)dF_{\lambda}(y)+q\int_0^\infty \bar F_D(q;y)dF_\lambda(y)]-cq.
-\end{aligned}]]
+\end{aligned}
+
+]]
 
 One can verify the above function of q is concave by taking the second derivative and see if it is less than 0. Hence the optimal order quantity $q^*$ can be obtained by the First Order Condition (FOC). Here we take derivative respect to q,
 
