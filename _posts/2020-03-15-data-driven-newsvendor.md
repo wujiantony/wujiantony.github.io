@@ -52,8 +52,8 @@ FOC is $d\psi/dq=0$,
 where $dF_\lambda(y)=\frac{(n\bar d)^n}{(n-1)!}y^{n-1}\exp(-n\bar dy)dy$, and $\bar F_D(q;y)=\exp(-qy)$. Then 
 
 [[
-\int_0^\infty \bar F_D(q^*;y)dF_\lambda(y)&=c/s \\
-\frac{(n\bar d)^n}{(n-1)!}\int_0^{\infty}y^{n-1}\exp(-n\bar dy-q^*y)dy&=c/s\\
+\int_0^\infty \bar F_D(q^*;y)dF_\lambda(y)&=c/s \\\
+\frac{(n\bar d)^n}{(n-1)!}\int_0^{\infty}y^{n-1}\exp(-n\bar dy-q^*y)dy&=c/s\\\
 \frac{(n\bar d)^n}{(n\bar d+q^*)^n}&=c/s.
 ]]
 
