@@ -38,7 +38,7 @@ disqus:
 
 markdown: kramdown
 kramdown:
-  math_engine: nil  # for katex (because kramdown defaults to mathjax)
+  math_engine: +nil+  # for katex (because kramdown defaults to mathjax)
 
 # Exclude from processing.
 # The following items will not be processed, by default.
