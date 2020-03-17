@@ -36,10 +36,6 @@ plugins:
 disqus:
   shortname: jianwu
 
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
