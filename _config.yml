@@ -35,6 +35,10 @@ plugins:
 # Disqus
 disqus:
   shortname: jianwu
+
+kramdown:
+  math_engine: nil  # for katex (because kramdown defaults to mathjax)
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
