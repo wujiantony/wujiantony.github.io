@@ -36,6 +36,11 @@ plugins:
 disqus:
   shortname: jianwu
 
+markdown: kramdown
+
+kramdown:
+  math_engine: katex
+  math_engine_opts: {}
 
 # Exclude from processing.
 # The following items will not be processed, by default.
