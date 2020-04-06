@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why there is a panic buying during COVID-19"
+title:  "Why Is There a Panic Buying During COVID-19"
 date:   2020-04-01 21:24:11 -0500
 categories: SCM 
 comments: true
